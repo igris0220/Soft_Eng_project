@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Welcome</title>
-    <script>
-    </script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Removed Font Awesome since images are now used -->
 </head>
 <body onload="displayUserInfo()">
     <h1 id="welcome-text"></h1>
     <h2>Explore Our Sports Equipment</h2>
-    <ul>
-        <li>Football</li>
-        <li>Basketball</li>
-        <li>Badminton Racket</li>
-        <li>Running Shoes</li>
-    </ul>
 
+    <div class="equipment-container">
+        <div class="equipment-card">
+            <img src="images/football.jpg" alt="Football" class="equipment-img">
+            <h3>Football</h3>
+            <p>Perfect for matches and training.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="equipment-card">
+            <img src="images/basketball.jpg" alt="Basketball" class="equipment-img">
+            <h3>Basketball</h3>
+            <p>Indoor/outdoor professional ball.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="equipment-card">
+            <img src="images/billiard.jpg" alt="Billiard Ball" class="equipment-img">
+            <h3>Billiard Ball</h3>
+            <p>Standard size and weight for precision play.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="equipment-card">
+            <img src="images/shoes.jpg" alt="Running Shoes" class="equipment-img">
+            <h3>Running Shoes</h3>
+            <p>Comfortable and high performance.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
