@@ -1,24 +1,24 @@
   // For Log in
   
 function validateLoginForm() {
-            var email = document.getElementById("email").value;
-            var password = document.getElementById("password").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
 
-            if (email === "" || password === "") {
-                alert("Both email and password are required.");
-                return false;
-            }
+    if (email === "" || password === "") {
+        alert("Both email and password are required.");
+        return false;
+    }
 
-            if (!email.includes("@")) {
-                alert("Please enter a valid email address.");
-                return false;
-            }
+    if (!email.includes("@")) {
+        alert("Please enter a valid email address.");
+        return false;
+    }
 
-            // Simulating login by storing user's name (use database authentication in production)
-            localStorage.setItem("userName", email.split("@")[0]); // Extracts username from email
-            window.location.href = "welcome.html"; // Redirects to welcome page
-            return false;
-        }
+    // Simulate login
+    localStorage.setItem("userName", email.split("@")[0]);
+    window.location.href = "dashboard.html";
+    return false;
+}
 
 
 
