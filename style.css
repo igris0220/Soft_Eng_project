@@ -91,8 +91,8 @@ a:hover {
 
 .welcome-text {
     position: absolute;
-    right: 40%;
-    top: 45%;
+    right: 25%;
+    top: 48%;
     transform: translateY(-50%);
     text-align: left;
     font-size: 60px;
@@ -103,7 +103,7 @@ a:hover {
 
 .subtext {
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 55%;
     text-align: left;
     font-size: 30px;
