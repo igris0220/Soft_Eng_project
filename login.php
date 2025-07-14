@@ -66,19 +66,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <p class="error"><?= htmlspecialchars($error) ?></p>
     <?php endif; ?>
 
-    <form method="POST" action="">
-        <label for="email">Email:</label>
-        <input id="email" type="email" name="email" required>
+  <form method="POST" action="">
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email" required>
 
-        <label for="password">Password:</label>
-        <input id="password" type="password" name="password" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password" required>
 
-        <label class="checkbox-label">
-            <input type="checkbox" name="admin_login"> Admin Login
-        </label>
-
-        <input type="submit" value="Login" class="btn-primary">
-    </form>
+    <input type="submit" value="Login" class="btn-primary">
+</form>
 
     <p>No account? <a href="register.php">Sign up here</a></p>
 </div>
