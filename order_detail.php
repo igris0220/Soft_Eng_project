@@ -47,7 +47,7 @@ $items_result = $stmt->get_result();
 <h2>Order Details - Order #<?php echo $order['id']; ?></h2>
 <p>Date: <?php echo $order['created_at']; ?></p>
 <p>Status: <?php echo htmlspecialchars($order['status']); ?></p>
-<p>Total: $<?php echo number_format($order['total_price'], 2); ?></p>
+<p>Total: PHP<?php echo number_format($order['total_price'], 2); ?></p>
 
 <table border="1" cellpadding="10" cellspacing="0">
     <thead>

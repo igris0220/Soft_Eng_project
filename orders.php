@@ -190,6 +190,7 @@ $orders = $stmt->get_result();
                         <td data-label="Total Price">$<?php echo number_format($order['total_price'], 2); ?></td>
                         <td data-label="Status"><?php echo ucfirst($order['status']); ?></td>
                         <td data-label="Details"><a class="view-link" href="order_detail.php?order_id=<?php echo $order['id']; ?>">View Items</a></td>
+                        <td data-label="Status"><?php echo isset($order['status']) ? ucfirst($order['status']) : 'Unknown'; ?></td>
                     </tr>
                     <?php endwhile; ?>
                 </tbody>

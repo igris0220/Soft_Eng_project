@@ -195,8 +195,8 @@ $orders_result = $conn->query($sql);
                                 <tr>
                                     <td><?= htmlspecialchars($item['name']) ?></td>
                                     <td><?= $item['quantity'] ?></td>
-                                    <td>$<?= number_format($item['price'], 2) ?></td>
-                                    <td>$<?= number_format($item['price'] * $item['quantity'], 2) ?></td>
+                                    <td>PHP<?= number_format($item['price'], 2) ?></td>
+                                    <td>PHP<?= number_format($item['price'] * $item['quantity'], 2) ?></td>
                                 </tr>
                                 <?php endwhile;
                                 $stmt->close();
