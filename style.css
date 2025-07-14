@@ -91,13 +91,13 @@ a:hover {
 
 .welcome-text {
     position: absolute;
-    right: 25%;
+    right: 55%;
     top: 48%;
     transform: translateY(-50%);
     text-align: left;
     font-size: 60px;
     font-weight: bold;
-    color: white;
+    color: rgb(26, 25, 25);
     animation: slideDown 1s ease-out; 
 }
 
@@ -107,7 +107,7 @@ a:hover {
     top: 55%;
     text-align: left;
     font-size: 30px;
-    color: white;
+    color: rgb(14, 14, 14);
     animation: slideDown 1.2s ease-out; 
 }
 
