@@ -75,35 +75,35 @@
     <div class="row justify-content-center">
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../image/amado.jpg" alt="Amado Jagmis jr">
+                <img src="/image/amado.jpg" alt="Amado Jagmis jr">
                 <h5>Amado</h5>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../image/antonio.jpg" alt="Antonio Linsangan">
+                <img src="/image/antonio.jpg" alt="Antonio Linsangan">
                 <h5>Antonio</h5>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../image/lance.jpg" alt="Lance Navarro">
+                <img src="/image/lance.jpg" alt="Lance Navarro">
                 <h5>Lance</h5>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../image/chars.jpg" alt="Chars Almocera">
+                <img src="/image/chars.jpg" alt="Chars Almocera">
                 <h5>Chars</h5>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../image/dave.jpg" alt="Dave Galindez">
+                <img src="/image/dave.jpg" alt="Dave Galindez">
                 <h5>Dave</h5>
             </div>
         </div>
