@@ -63,8 +63,8 @@ $items_result = $stmt->get_result();
             <tr>
                 <td><?php echo htmlspecialchars($item['name']); ?></td>
                 <td><?php echo $item['quantity']; ?></td>
-                <td>$<?php echo number_format($item['price'], 2); ?></td>
-                <td>$<?php echo number_format($item['quantity'] * $item['price'], 2); ?></td>
+                <td>PHP<?php echo number_format($item['price'], 2); ?></td>
+                <td>PHP<?php echo number_format($item['quantity'] * $item['price'], 2); ?></td>
             </tr>
         <?php endwhile; ?>
     </tbody>
