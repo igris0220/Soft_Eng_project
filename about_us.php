@@ -1,5 +1,5 @@
 <?php
-// About
+// About Us Page
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -75,33 +75,37 @@
     <div class="row justify-content-center">
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../img/rex.jpg" alt="John Rex Gatchalian">
-                <h5>amado</h5>
+                <img src="../image/amado.jpg" alt="Amado Jagmis jr">
+                <h5>Amado</h5>
             </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../img/lance.jpg" alt="Lance Armstrong Navarro">
-                <h5>antonio</h5>
+                <img src="../image/antonio.jpg" alt="Antonio Linsangan">
+                <h5>Antonio</h5>
             </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../img/spled.jpg" alt="Spledelyn Cristine Recarze">
-                <h5>lance</h5>
+                <img src="../image/lance.jpg" alt="Lance Navarro">
+                <h5>Lance</h5>
             </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../img/.jpg" alt="">
+                <img src="../image/chars.jpg" alt="Chars Almocera">
                 <h5>Chars</h5>
             </div>
-              <div class="col-sm-6 col-md-4 col-lg-3">
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="team-member">
-                <img src="../img/.jpg" alt="">
+                <img src="../image/dave.jpg" alt="Dave Galindez">
                 <h5>Dave</h5>
             </div>
-        </div>
         </div>
     </div>
 </main>
