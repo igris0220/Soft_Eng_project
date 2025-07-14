@@ -45,7 +45,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 py-3 shadow-sm">
         <a class="navbar-brand" href="#">
-            <img src="../img/logo.png" alt="FinQuest Logo">
+            <img src="../img/logo.png" alt="Ball Games logo">
         </a>
         <h1 class="ms-3 fs-3">About Us</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
